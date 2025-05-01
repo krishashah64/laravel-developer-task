@@ -23,6 +23,7 @@ git clone https://github.com/krishashah64/laravel-developer-task.git
 cd laravel-developer-task
 
 2. **Install PHP and JS dependencies:**
+```bash
 composer install
 npm install
 npm run build
