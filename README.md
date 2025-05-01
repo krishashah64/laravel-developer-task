@@ -1,8 +1,11 @@
-This project is a full Laravel application built to fulfill a 4-part interview task:
-- Task 1: Blog UI with Tailwind CSS, dark mode, and AJAX comment support
-- Task 2: User authentication with role-based access using Blade & Livewire
-- Task 3: E-commerce DB schema with Eloquent relationships and query demo blade
-- Task 4: External API integration (JSONPlaceholder) with search and scheduler
+## Project Overview
+
+This project is a full Laravel application that includes the following features:
+
+- **Blog System**: Responsive blog UI using Tailwind CSS with dark mode toggle and AJAX-powered comment support  
+- **User Management**: User registration, login/logout, and role-based access (Admin/User) using Blade and Livewire  
+- **E-commerce Schema**: Database schema with users, products, orders, and Eloquent relationships, along with a query demo view  
+- **External API Integration**: Fetch and display user data from JSONPlaceholder API, searchable via Blade, and auto-updated using Laravel Scheduler
 
 **Tech Stack Used**
 - **Laravel 12.x** – PHP web framework for backend development  
@@ -19,25 +22,25 @@ This project is a full Laravel application built to fulfill a 4-part interview t
 
 **Setup Instructions**
 1. **Clone this repository:**
-git clone https://github.com/krishashah64/laravel-developer-task.git
-cd laravel-developer-task
+- git clone https://github.com/krishashah64/laravel-developer-task.git
+- cd laravel-developer-task
 
 2. **Install PHP and JS dependencies:**
-```bash
-composer install
-npm install
-npm run build
+
+- composer install
+- npm install
+- npm run build
 
 3. **Configure Environment:**
-cp .env.example .env
-php artisan key:generate
-Update DB credentials in .env
+- cp .env.example .env
+- php artisan key:generate
+- Update DB credentials in .env
 
 4. **Run Migrations and Seeders:**
-php artisan migrate --seed
+- php artisan migrate --seed
 
 5. **Start Laravel server:**
-php artisan serve
+- php artisan serve
 
 **Key Routes**
 - /blog — Blog with dark mode & comments (Task 1)
