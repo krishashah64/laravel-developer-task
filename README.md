@@ -50,5 +50,5 @@ This project is a full Laravel application that includes the following features:
 
 
 **Admin Login**
-Email: admin@example.com
-Password: password
+- Email: admin@example.com
+- Password: password
