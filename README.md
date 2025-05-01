@@ -22,20 +22,20 @@ This project is a full Laravel application built to fulfill a 4-part interview t
 git clone https://github.com/krishashah64/laravel-developer-task.git
 cd laravel-developer-task
 
-**2. Install PHP and JS dependencies:**
+2. **Install PHP and JS dependencies:**
 composer install
 npm install
 npm run build
 
-**3. Configure Environment:**
+3. **Configure Environment:**
 cp .env.example .env
 php artisan key:generate
 Update DB credentials in .env
 
-**4. Run Migrations and Seeders:**
+4. **Run Migrations and Seeders:**
 php artisan migrate --seed
 
-**5. Start Laravel server:**
+5. **Start Laravel server:**
 php artisan serve
 
 **Key Routes**
